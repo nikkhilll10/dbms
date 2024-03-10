@@ -1,0 +1,23 @@
+a. Altering a Table.
+Query:
+create table student(name text, age integer, phno integer); insert into student values (sayee', 17, 001)
+insert into student values (rutuja, 18,002);
+select * from student;
+alter table student add (adharnum integer);
+select * from student;
+
+b. Dropping/Truncating/Renaming Tables.
+Query:
+create database sayee ;
+show databases;
+use sayee;
+create table c1( name text, age integer, studentid integer);
+create table c2( name text, empid integer, experience integer);
+create table student(name text, age integer, phno integer);
+insert into student values ('sayee', 17 ,001);
+insert into student values ('rutuja', 18 ,002);
+select * from student;
+truncate table student;
+select * from student;
+alter table student rename to fyds;
+show tables;

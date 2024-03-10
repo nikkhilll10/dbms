@@ -1,0 +1,40 @@
+a) Simple query with where operation.
+Query:
+create
+CREATE TABLE EMPLOYEE ( empId INTEGER PRIMARY KEY, name TEXT NOT NULL, dept TEXT NOT NULL );
+--
+insert
+INSERT INTO EMPLOYEE VALUES (0001, Clark', 'Sales'); INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Accounting'); INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 'Sales');
+--
+fetch
+SELECT FROM EMPLOYEE WHERE dept Sales';
+
+
+
+b)Where with keywords and logical operators
+Query:
+-- create
+CREATE TABLE EMPLOYEE ( empId INTEGER PRIMARY KEY, name TEXT NOT NULL, dept TEXT NOT NULL
+);
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 'Sales'); INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Accounting'); INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 'Sales');
+-- fetch
+SELECT * FROM EMPLOYEE WHERE dept = 'Sales and empId=0003;
+
+
+
+c)simple queries with aggregate function
+Query:
+create database college2;
+use college2;
+create table stud( rollno integer primary key, name text);
+insert into stud values (1," sayee");
+insert into stud values (10,"rutuja");
+insert into stud values (5,"siddhi");
+insert into stud values(3,"harsh");
+insert into stud values(8,"ronith");
+select * from stud;
+select * from stud order by rollno;
+
+Query:
+select * from stud order by rollno desd;

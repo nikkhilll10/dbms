@@ -1,0 +1,16 @@
+a. Viewing all databases
+Sql query
+show databases;
+
+b. Creating a Database
+Salquery:
+create database archita
+
+c. Viewing all Tables in a Database
+Sql query:
+create database archita
+show databases;
+use archita;
+create table c1( name text, age integer, studentid integer);
+create table c2( name text, empid integer, experience integer);
+show tables

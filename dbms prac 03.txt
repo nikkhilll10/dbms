@@ -1,0 +1,18 @@
+a. Creating Tables (With and Without Constraints)
+create database archita ;
+show databases;
+use archita;
+create table c1( name text, age integer, studentid integer);
+create table c2( name text, empid integer, experience integer);
+show tables ;
+
+b) inserting /updating/deleting records in table.
+create database archita;
+show databases;
+use archita;
+create table c1( name text, age integer, studentid integer);
+create table c2( name text not null, empid integer primary key,experience integer);
+show tables;
+create table student (name text, age integer, phone integer);
+insert into student values ('archita', 46, 008);
+select from students;

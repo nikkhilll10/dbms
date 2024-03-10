@@ -1,0 +1,19 @@
+a)Date Function.
+Query:
+select now()
+Query:
+select curdate()
+Query:
+select current_time()
+
+b)String Functions
+Query:
+select char_length("archita")
+Query:
+select concat_ws('_','archita', 'suryakant', 'randive"
+Query:
+select Icase("archita");
+Query:
+select left("archita randive",5);
+Query:
+select locate("suryakant","archita suryakant randive")
